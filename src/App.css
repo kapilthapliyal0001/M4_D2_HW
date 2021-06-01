@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+}
+
+.App .main-div {
   background: rgb(74, 173, 173);
   background: linear-gradient(
     9deg,

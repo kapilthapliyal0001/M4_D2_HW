@@ -30,7 +30,7 @@ class LatestRelease extends Component {
                   })
                 }
               >
-                <Card.Img variant="top" src={book.img} />
+                <Card.Img variant="top" src={book.img} fluid />
                 <Card.Body>
                   <Card.Title>{book.title}</Card.Title>
                   <Card.Text>Category: {book.category}</Card.Text>

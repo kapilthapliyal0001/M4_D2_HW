@@ -7,7 +7,7 @@ import LatestRelease from "./components/LatestRelease";
 
 function App() {
   return (
-    <div>
+    <div className="main-div">
       <MyNavBar title="StriveStaurant" />
       <MyWelcome />
       <LatestRelease />
