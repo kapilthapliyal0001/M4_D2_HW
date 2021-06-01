@@ -13,7 +13,9 @@ class LatestRelease extends Component {
     return (
       // fluid will make it width full across the page.
       <Container fluid>
-        <h1 className="justify-contenet-center my-3">Strive Book Store</h1>
+        <h1 className="d-flex justify-content-center my-3 ">
+          Strive Book Store
+        </h1>
         <Row className="justify-content-center mt-3">
           {/* Map Start */}
           {fantasy.map((book, i) => (
